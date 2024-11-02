@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    padding: 50px;
+    background: #444444;
+    color: #ffffff;
+    font-size:1.6em;
+    font-weight:300;
+    
+}
+body, html {
+              margin: 0;
+              padding: 0;
+              height: 80%;
+              background-color: #038c61;
+              
+            }
+
+            .custom-color {
+                color:#ffffff;
+            }
+            .full-screen-container {
+              width: 100%;
+              height: 80%;
+              background-image: url('assets/images/headerimages.jpg');
+              background-size: cover;
+              background-position: center;
+              
+              /* Additional styles as needed */
+
+            
+
+            }
+
+                     
+             /* Container styles */
+              .container {
+                 width: 200px;
+                  height: 200px;
+                 background-color: #ffffff;
+                     transition: background-color 0.3s; /* Add smooth transition for background color change */
+            }
+
+                /* Change background color on hover */
+            .container:hover {
+                 background-color: #038c61;
+             }
+                
